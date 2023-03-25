@@ -1,0 +1,16 @@
+tasks:
+  Insert the sales data for the week and export it as a PDF:
+    robotTaskName: Insert the sales data for the week and export it as a PDF
+  Minimal task:
+    robotTaskName: Minimal task
+  Run all tasks:
+    shell: python -m robot --report NONE --outputdir output --logtitle "Task log"
+      tasks.robot
+condaConfigFile: conda.yaml
+ignoreFiles:
+- .gitignore
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
