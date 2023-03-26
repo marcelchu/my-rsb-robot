@@ -19,8 +19,6 @@ Insert the sales data for the week and export it as a PDF
     Export the table as a PDF
     [Teardown]    Log out and close the browser
 
-Minimal task
-
 
 *** Keywords ***
 Open the intranet website
